@@ -12,3 +12,39 @@ p {
 #texto2 {
     color: yellowgreen;
 }
+
+/***************************************************************************************************/
+.main-nav {
+    margin-top: 10px;
+    list-style: none; /* Quita el estilo de la listas */
+    padding-left: 0;  /* padding=> quita los espacios entre el elemento superior y el elemento de la clase */
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none; 
+}
+
+/* Pseudo Clase (hover, active) => Define el estilo de un estado especial de un elemento */
+/* hover => se habilita cuando el mouse detecta que se encuentra sobre el elemento indicado*/
+.main-nav__item a:hover {
+    color: blue;
+}
+
+/* active => se habilita cuando se a presionado con click el elmento*/
+.main-nav__item a:active {
+    color: red;
+}
+
+/* Pseudo Elementos (after) => Define el estilo de una parte especifica de un elemento */
+/* after => Se habilita después de crear el elemento sobre el que se esta colocando el estilo*/
+.main-nav__item a::after {
+    content: " |";
+}
