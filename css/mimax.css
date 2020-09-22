@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+/*
+min-width => Será la longitud mínima que alcance el elemento
+max-width => Será la longitud máxima que alcance el elemento
+
+min-height => Será la altura mínima que alcance el elemento
+max-height => Será la altura máxima que alcance el elemento
+*/
+section {
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+
+    height: 500px;
+    min-height: 500px;
+    max-height: 950px;
+
+    margin: 0 auto;
+    background-color: red;
+}

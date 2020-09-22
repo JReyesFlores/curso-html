@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+position:
+static => Por defecto
+absolute => sobreposiciona el estilo sobre el elemento que lo contiene. El elemento contenedor debe tener la propiedad display: relative;
+relative => Coloca el elemento en una posición determinada. (Se maneja con las propiedades - top | left | bottom | right)
+
+*/
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: green;
+    position: relative;
+}

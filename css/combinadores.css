@@ -1,0 +1,27 @@
+/* 
+Hermano cercano =>
+Aplica el estilo a los elementos {p}  más cercanos a un {h2} (mismo contenedor) */
+h2 + p {
+    color: red;
+}
+
+/* 
+Hermano general =>
+Aplica el estilo todos los elementos {p} que vienen después del elemento {h2} (mismo contenedor)*/
+h2 ~ p {
+    color: blue;
+}
+
+/* 
+Hilo =>
+Aplica el estilo todos los elementos {p} que esten dentro de un {div} (solo permite un nivel) */
+div > p {
+    color: yellow;
+}
+
+/* 
+Descendiente =>
+Aplica el estilo todos los elementos {p} que esten dentro de un {div} (multinivel) */
+div p {
+    color: violet;
+}

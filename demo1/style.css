@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+main {
+    background-color: lightgray;
+    height: 50vh;
+}
+
+section {
+    padding-top: 50vh;
+    height: 100vh;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 1px black dashed;
+
+    text-align: center; 
+
+    position: relative;
+    top: -100px;
+    background-color: cornflowerblue;
+}
