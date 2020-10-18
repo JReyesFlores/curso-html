@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Conociendo la etiqueta calendar">
+    <title>Calendario</title>
+</head>
+
+<body>
+    <!--
+        Etiqueta: <form>
+            display: block
+        
+        Etiqueta: <label>
+            display: inline
+        
+        Etiqueta: <span>
+            display: inline
+
+        Etiqueta: <input type="submit">
+            display: inline-block
+        
+        Etiqueta: <input type="{time,date,week,month,datetime-local}">
+            display: inline-flex
+        
+        Etiqueta:  <main>, <section>
+            display: block
+    -->
+    <main>
+        <section>
+            <form action="">
+                <label for="hora">
+                    <span>Hora</span>
+                    <input type="time" name="hora" id="hora">
+                </label>
+
+                <label for="dia">
+                    <span>Día</span>
+                    <input type="date" name="dia" id="dia">
+                </label>
+
+                <label for="semana">
+                    <span>Semana</span>
+                    <input type="week" name="semana" id="semana">
+                </label>
+
+                <label for="mes">
+                    <span>Mes</span>
+                    <input type="month" name="mes" id="mes">
+                </label>
+
+                <input type="submit">
+            </form>
+        </section>
+
+        <section>
+            <form action="">
+                <label for="calendario">
+                    <span>Calendario</span>
+                    <input type="datetime-local" id="calendario" name="calendario">
+                </label>
+
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

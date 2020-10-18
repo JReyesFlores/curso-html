@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Control select y datalist">
+    <meta name="robots" content="index,follow">
+    <title>Select</title>
+</head>
+
+<body>
+    <!--
+        Etiqueta: <main>, <section>
+            Display: block
+
+        Etiqueta: <select>, <input list="{id datalist}">
+            Display: inline-block
+        
+        Etiqueta: <option>
+            Display: block
+    -->
+    <main>
+        <section>
+            <select name="cursos" id="cursos">
+                <option value="javascript">Javascript</option>
+                <option value="html5">HTML5</option>
+                <option value="css3">CSS3</option>
+                <option value="web-standards">Web Standards</option>
+            </select>
+        </section>
+
+        <section>
+            <input list="cursos2">
+            <datalist id="cursos2">
+                <option value="Javascript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="Web Standards"></option>
+            </datalist>
+        </section>
+    </main>
+</body>
+
+</html>
