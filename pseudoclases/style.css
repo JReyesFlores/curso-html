@@ -1,8 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /***************************************************************************************************/
 .main-nav {
     margin-top: 10px;
     list-style: none; /* Quita el estilo de la listas */
-    padding-left: 0;  /* padding=> quita los espacios entre el elemento superior y el elemento de la clase */
+    padding: 10px;  /* padding=> quita los espacios entre el elemento superior y el elemento de la clase */
     background-color: #13a4a4;
 }
 

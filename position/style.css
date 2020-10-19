@@ -9,7 +9,6 @@ position:
 static => Por defecto
 absolute => sobreposiciona el estilo sobre el elemento que lo contiene. El elemento contenedor debe tener la propiedad display: relative;
 relative => Coloca el elemento en una posición determinada. (Se maneja con las propiedades - top | left | bottom | right)
-
 */
 
 .parent {

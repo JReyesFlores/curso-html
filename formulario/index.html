@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Formularios">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <!--
+        Etiqueta: <main>, <section>, <h2>, <form>
+            display: block
+
+        Etiqueta: <label>, <span>
+            display: inline
+        
+        Etiqueta: <input type="{text, email}">
+            display: inline-block
+        
+        Etiqueta: <input type="date">
+            display: inline-flex
+    -->
+    <main>
+        <section>
+            <h2>Formulario #1</h2>
+            <form action="">
+                <label for="nombre">
+                    <span>¿Cual es tu nombre?</span>
+                    <input type="text" id="nombre" name="f1nombre" placeholder="Tú nombre">
+                </label>
+
+                <label for="inicio-platzi">
+                    <span>¿Que día iniciaste en platzi?</span>
+                    <input type="date" id="inicio-platzi" name="f1date">
+                </label>
+
+                <label for="horario">
+                    <span>¿En que horario estudias?</span>
+                    <input type="time" id="horario" name="f1horario">
+                </label>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Formulario #2 (validado)</h2>
+            <form action="">
+                <label for="nombre">
+                    <span>¿Cual es tu nombre?</span>
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+                </label>
+
+                <label for="correo">
+                    <span>¿Cual es tu correo?</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" required>
+                </label>
+
+                <label for="pais">
+                    <span>¿Cual es tu pais?</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country" required>
+                </label>
+
+                <label for="codigopostal">
+                    <span>¿Cual es tu código postal?</span>
+                    <input type="text" name="codigopostal" id="codigopostal" autocomplete="postal-code" required>
+                </label>
+
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

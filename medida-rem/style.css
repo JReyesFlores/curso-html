@@ -8,7 +8,7 @@
 rem => Toma el valor del elemento root, que sería el elemento "html"
 
 Se recomienda utilizar dependiendo del navegador:
-Chrome: 62.5% donde 1.6rem equivale a 16px
+{Chrome,Firefox}: 62.5% donde 1.6rem equivale a 16px
 */
 
 html {
@@ -20,5 +20,5 @@ p {
 }
 
 main div {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
