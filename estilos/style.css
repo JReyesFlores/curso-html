@@ -1,0 +1,14 @@
+/* Por elemento */
+p {
+    color: blue;
+}
+
+/* Clase */
+.parrafo {
+    color: red;
+}
+
+/* Id */
+#texto2 {
+    color: yellowgreen;
+} 

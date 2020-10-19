@@ -1,20 +1,20 @@
 /* 
 Hermano cercano =>
-Aplica el estilo a los elementos {p}  más cercanos a un {h2} (mismo contenedor) */
+Aplica el estilo al elemento {p} más cercano a un {h2} (mismo nivel) */
 h2 + p {
     color: red;
 }
 
 /* 
 Hermano general =>
-Aplica el estilo todos los elementos {p} que vienen después del elemento {h2} (mismo contenedor)*/
+Aplica el estilo todos los elementos {p} que vienen después del elemento {h2} (mismo nivel)*/
 h2 ~ p {
     color: blue;
 }
 
 /* 
 Hilo =>
-Aplica el estilo todos los elementos {p} que esten dentro de un {div} (solo permite un nivel) */
+Aplica el estilo todos los elementos {p} que esten dentro de un {div} (solo permite un sub-nivel) */
 div > p {
     color: yellow;
 }
