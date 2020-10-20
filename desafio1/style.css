@@ -6,6 +6,7 @@
 
 main {
     width: 100%;
+    height: 100vh;
     margin-top: 20px;
 }
 
@@ -15,22 +16,24 @@ section {
 }
 
 .titulo {
-    width: 50%;
+    width: 450px;
     margin: 0 auto;
     padding: 10px;
     border-radius: 8px;
     background-color: red;
-    text-align: center;
+    text-align: center;  
 
-    position: absolute;
-    margin-top: 15px auto;
+    position: absolute; 
+    left: 35%;
+    top: 5px;
 }
 
 .parrafo {
     width: 80%;
     margin: 0 auto;
+    border-radius: 10px;
     border: 1px black dashed;
     background-color: aquamarine;
-    padding: 65px 30px;
-    text-align: left; 
+    padding: 45px 30px;
+    text-align: left;  
 }
