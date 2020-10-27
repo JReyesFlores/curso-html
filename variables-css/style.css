@@ -1,4 +1,4 @@
-@import url('./_variables.css');
+@import url('./_variables.css'); /* Evitar realizar [import] por buenas practicas */
 
 * {
     margin: 0;
@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
