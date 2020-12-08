@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+.boxDialog {
+  position: relative;
+  margin: 0 auto;
+  background-color: pink;
+  width: 500px;
+  height: 200px;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.boxDialog .boxDialog:nth-child(1) {
+  background-color: red;
+  position: relative;
+  float: right;
+  /*bottom: 0; */
+}
+.color-aqua {
+  background-color: aqua;
+}
+.color-red {
+  background-color: red;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-green {
+  background-color: green;
+}
+.color-tomato {
+  background-color: tomato;
+}
+.color-darkcyan {
+  background-color: darkcyan;
+}
