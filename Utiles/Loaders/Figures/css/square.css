@@ -1,0 +1,21 @@
+.square {
+  width: 64px;
+  height: 64px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0 5px 0 5px;
+  animation: square-animation 2s infinite;
+  animation-timing-function: ease-in-out;
+  display: inline-block;
+}
+
+@keyframes square-animation {
+  50% {
+    width: 32px;
+    height: 32px;
+    margin: 0 20px 0 20px;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,89 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 550px;
+}
+
+.container {
+  background-color: turquoise;
+  width: 180px;
+  height: 180px;
+  position: relative;
+}
+
+.element {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.element1 {
+  background-color: papayawhip;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.element2 {
+  background-color: papayawhip;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.element3 {
+  background-color: papayawhip;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.element4 {
+  background-color: pink;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.element5 {
+  background-color: pink;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.element6 {
+  background-color: pink;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.element7 {
+  background-color: lightcyan;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.element8 {
+  background-color: lightcyan;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.element9 {
+  background-color: lightcyan;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
