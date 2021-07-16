@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0b2429;
+}
+.gout {
+  width: 120px;
+  height: 120px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  position: relative;
+}
+.pos1 {
+  background-color: #f3ac3c;
+  top: -90px;
+  left: 80px;
+}
+.pos2 {
+  background-color: #998235;
+  top: -30px;
+  left: 140px;
+}
+.all-round-pos3 {
+  background-color: #f3ac3c;
+  border-top-right-radius: 60px;
+  top: 30px;
+  left: 200px;
+}

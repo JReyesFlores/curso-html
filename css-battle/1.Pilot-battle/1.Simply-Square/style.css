@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #5d3a3a;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: #b5e0ba;
+}

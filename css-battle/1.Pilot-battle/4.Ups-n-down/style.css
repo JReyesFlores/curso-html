@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #62306d;
+  width: 100vw;
+  height: 100vh;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #f7ec7d;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.pos1 {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.pos2 {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.pos3 {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+.rotate {
+  transform: rotate(180deg);
+}
