@@ -1,0 +1,21 @@
+h1 {
+  text-align: centers;
+  color: crimson;
+}
+
+div {
+  padding: 15px;
+  margin: auto;
+  max-width: 400px;
+  /* border: 1px solid crimson; */
+}
+
+.icono-azul {
+  font-size: 2.5em;
+  color: cornflowerblue;
+}
+
+.icono-rojo {
+    font-size: 3em;
+    color: crimson;
+}
